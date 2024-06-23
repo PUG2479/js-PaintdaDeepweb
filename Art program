@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(600, 600);
+  background('white')
+}
+
+function draw() {
+  if (color == 1)
+    stroke("black");
+    fill("black");
+   
+  
+  if (mouseIsPressed){
+      circle(mouseX, mouseY, 20, 20);
+  }
+  
+}
